@@ -1,0 +1,10 @@
+10 4 50 4
+City 2 6
+City 5 9
+City 5 5
+Village 2 7
+Village 3 6
+Village 9 6
+Village 3 9
+Millitary_base 9 9
+Millitary_base 1 7

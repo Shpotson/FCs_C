@@ -1,0 +1,10 @@
+﻿  LatinWar.cpp
+E:\Source\Code\LatinWar\LatinWar\LatinWar.cpp(36,1): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+E:\Source\Code\LatinWar\LatinWar\LatinWar.cpp(172,47): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+E:\Source\Code\LatinWar\LatinWar\LatinWar.cpp(176,45): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+E:\Source\Code\LatinWar\LatinWar\LatinWar.cpp(180,46): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+E:\Source\Code\LatinWar\LatinWar\LatinWar.cpp(184,46): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+E:\Source\Code\LatinWar\LatinWar\LatinWar.cpp(201,16): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+E:\Source\Code\LatinWar\LatinWar\LatinWar.cpp(201,68): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+E:\Source\Code\LatinWar\LatinWar\LatinWar.cpp(250,16): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
+  LatinWar.vcxproj -> E:\Source\Code\LatinWar\Debug\LatinWar.exe
