@@ -40,7 +40,7 @@ class Country {
         srand(random);
 
         int total = opponent.getTotalCostOfCountry();
-        while ((total >= totalShotCost) & opponent.getTotalCostOfCountry() > opponent.getDamage() & !end) {
+        while ((total >= totalShotCost) && (opponent.getTotalCostOfCountry() > opponent.getDamage()) && !end) {
             
             int x = rand() % opponent.getSize();
             int y = rand() % opponent.getSize();
@@ -190,19 +190,19 @@ Country create(int i) {
         in >> countrySize >> reloadTime >> shotPrice >> battareyNum;
 
         //Checking if the values in file is true;
-        if (countrySize > 50 | countrySize < 4)
+        if (countrySize > 50 || countrySize < 4)
         {
             countrySize = 10;
         }
-        if (shotPrice < 5 | shotPrice > 1000)
+        if (shotPrice < 5 || shotPrice > 1000)
         {
             shotPrice = 50;
         }
-        if (reloadTime > 200 | reloadTime < 2)
+        if (reloadTime > 200 || reloadTime < 2)
         {
             reloadTime = 5;
         }
-        if (battareyNum < 2 | battareyNum > 5)
+        if (battareyNum < 2 || battareyNum > 5)
         {
             battareyNum = 4;
         }
@@ -221,7 +221,7 @@ Country create(int i) {
             arg.first.first = x;
             arg.first.second = y;
             arg.second = cmd;
-            if (x >= countrySize | x < 0 | y >= countrySize | y < 0)
+            if (x >= countrySize || x < 0 || y >= countrySize || y < 0)
             {
                 continue;
             }
